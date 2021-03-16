@@ -1,3 +1,3 @@
 # Tidal Bot
 
-A python bot that writes Tidal Cycles files.
+A python bot that composes Tidal Cycles files.

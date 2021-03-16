@@ -1,7 +1,7 @@
-d1 $ sound "bass latibro diphone"
+d1 $ hurry 2 $ sound "gabbaloud:32 fest:83@4"
 
-d2 $ sound "speedupdown"
+d2 $ hurry 1 $ sound "kicklinn:93 dr55:97 glitch:68"
 
-d3 $ sound "speech 808"
+d3 $ hurry 2 $ sound "bass:0 gabbaloud:29 rave:88@3"
 
 hush

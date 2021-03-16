@@ -2,7 +2,7 @@ import random
 
 
 def main():
-    samples = readSamples('list.txt')
+    samples = readSamples('sampleList.txt')
     code = ""
     for i in range(1, random.randint(3, 5)):
         code += writeD(i, samples)
@@ -18,10 +18,38 @@ def readSamples(filename):
 
 
 def writeD(i, samples):
-    d = "d" + str(i) + " $ sound \""
+    d = "d" + str(i) + " $ "
+    rand = random.randint(0, 2)
+    if rand == 0:
+        d += "fast "
+    elif rand == 1:
+        d += "slow "
+    elif rand == 2:
+        d += "hurry "
+    d += str(random.randint(1, 2)) + " $ sound \""
     for i in range(random.randint(1, 4)):
-        d += random.choice(samples).strip() + " "
-    d = d.strip()
+        if random.randint(0, 3) == 0:
+            rand = random.randint(0, 1)
+            if rand == 0:
+                d += "~ "
+            elif rand == 1:
+                d += ". "
+        else:
+            d += random.choice(samples).strip() + ":" + \
+                str(random.randint(0, 100))
+            if random.randint(0, 2) == 0:
+                rand = random.randint(0, 3)
+                if rand == 0:
+                    d += "*"
+                elif rand == 1:
+                    d += "!"
+                elif rand == 2:
+                    d += "/"
+                elif rand == 3:
+                    d += "@"
+                d += str(random.randint(2, 4))
+            d += " "
+    d = d.strip(". ")
     d += "\"\n\n"
     return d
 
