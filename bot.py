@@ -19,38 +19,20 @@ def readSamples(filename):
 
 def writeD(i, samples):
     d = "d" + str(i) + " $ "
-    rand = random.randint(0, 2)
-    if rand == 0:
-        d += "fast "
-    elif rand == 1:
-        d += "slow "
-    elif rand == 2:
-        d += "hurry "
-    d += str(random.randint(1, 2)) + " $ sound \""
+    d += random.choice(["fast", "hurry"]) + " "
+    d += str(random.choice([1, 2, 0.5])) + " $ sound \""
     for i in range(random.randint(1, 4)):
         if random.randint(0, 3) == 0:
-            rand = random.randint(0, 1)
-            if rand == 0:
-                d += "~ "
-            elif rand == 1:
-                d += ". "
+            d += random.choice(["~", "."]) + " "
         else:
-            d += random.choice(samples).strip() + ":" + \
-                str(random.randint(0, 100))
+            d += random.choice(samples).strip() + ":"
+            d += str(random.randint(0, 100))
             if random.randint(0, 2) == 0:
-                rand = random.randint(0, 3)
-                if rand == 0:
-                    d += "*"
-                elif rand == 1:
-                    d += "!"
-                elif rand == 2:
-                    d += "/"
-                elif rand == 3:
-                    d += "@"
+                d += random.choice(["*", "!", "/", "@"])
                 d += str(random.randint(2, 4))
             d += " "
     d = d.strip(". ")
-    d += "\"\n\n"
+    d += "\" # legato 1\n\n"
     return d
 
 
