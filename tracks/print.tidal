@@ -1,0 +1,9 @@
+d1 $ fast 1 $ sound "print:9 print:36 print:34 print:100/2" # legato 1
+
+d2 $ hurry 0.5 $ sound "print:45 print:88 ~" # legato 1
+
+d3 $ fast 1 $ sound "print:42/2 print:47*3 print:61 print:78!3" # legato 1
+
+d4 $ hurry 2 $ sound "~" # legato 1
+
+hush

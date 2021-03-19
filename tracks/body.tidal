@@ -1,0 +1,9 @@
+d1 $ hurry 0.5 $ sound "chin:69" # legato 1
+
+d2 $ hurry 0.5 $ sound "realclaps:54 hand:54" # legato 1
+
+d3 $ hurry 0.5 $ sound ". ~ breath:20 breath:45" # legato 1
+
+d4 $ hurry 1 $ sound "mouth:74@2 ~ hand:1!2 ~" # legato 1
+
+hush

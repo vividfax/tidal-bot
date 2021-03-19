@@ -1,0 +1,9 @@
+d1 $ hurry 2 $ sound "insect:15 pebbles:2 ~" # legato 1
+
+d2 $ fast 1 $ sound "coins:24 fire:38 birds:38@4 birds:59" # legato 1
+
+d3 $ fast 0.5 $ sound "crow:10 baa:55" # legato 1
+
+d4 $ hurry 1 $ sound "breath:82!4 . . wind:55/3" # legato 1
+
+hush
