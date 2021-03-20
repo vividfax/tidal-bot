@@ -1,0 +1,9 @@
+d5 $ fast 2 $ sound "realclaps:55/2 . realclaps:84/4" # legato 1
+
+d6 $ fast 0.5 $ sound "realclaps:92 . realclaps:12!2" # legato 1
+
+d7 $ fast 1 $ sound "realclaps:38 realclaps:14*4" # legato 1
+
+d8 $ fast 2 $ sound "realclaps:87*4 realclaps:100" # legato 1
+
+hush

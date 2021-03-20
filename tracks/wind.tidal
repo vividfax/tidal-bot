@@ -1,9 +1,35 @@
-d1 $ fast 2 $ sound "wind:49" # legato 1
+d1 $ fast 2 $ sound "wind:49" # legato 1 # gain 1.2
 
-d2 $ hurry 1 $ sound "~ wind:91 wind:43" # legato 1
+d2 $ hurry 1 $ sound "~ wind:91 wind:43" # legato 1 # gain 1.2
 
-d3 $ fast 2 $ sound "wind:97!3" # legato 1
+d3 $ fast 2 $ sound "wind:97!3" # legato 1 # gain 1.2
 
-d4 $ hurry 1 $ sound "wind:54 wind:36 wind:70/2 wind:76" # legato 1
+d4 $ hurry 1 $ sound "wind:54 wind:36 wind:70/2 wind:76" # legato 1 # gain 1.2
+
+d5 $ fast 0.5 $ sound ". sd:37/3 sd:25 sd:75" # legato 1 # gain 0.8
+
+d6 $ fast 2 $ sound "sd:5" # legato 1 # legato 1 # gain 0.8
+
+d7 $ fast 1 $ sound "sd:73 ~" # legato 1 # legato 1 # gain 0.8
+
+d8 $ fast 2 $ sound "~ sd:34" # legato 1 # legato 1 # gain 0.8
+
+d9 $ fast 0.5 $ sound "~ bd:42 . bd:81*2" # legato 1 # gain 0.8
+
+d10 $ hurry 1 $ sound "bd:32@2 bd:68 . ~" # legato 1 # gain 0.8
+
+d11 $ fast 1 $ sound "bd:10 bd:28 bd:28" # legato 1 # gain 0.8
+
+d12 $ fast 1 $ sound "pluck:93 pluck:72 pluck:83*4" # legato 1
+
+d13 $ hurry 2 $ sound "pluck:81 pluck:64!4 pluck:97" # legato 1
+
+d14 $ hurry 1 $ sound "pluck:45/2 pluck:48 pluck:73" # legato 1
+
+d15 $ hurry 1 $ sound "pluck:45 pluck:6/2" # legato 1
+
+d16 $ hurry 1 $ sound "birds:59 birds:100" # legato 1 # gain 0.8
+
+d17 $ fast 0.5 $ sound "realclaps:6@3 realclaps:10*3 realclaps:70!3 realclaps:11" # legato 1 # gain 0.8
 
 hush
