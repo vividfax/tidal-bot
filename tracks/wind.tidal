@@ -1,3 +1,5 @@
+setcps (135/60/4)
+
 d1 $ fast 2 $ sound "wind:49" # legato 1 # gain 1.2
 
 d2 $ hurry 1 $ sound "~ wind:91 wind:43" # legato 1 # gain 1.2

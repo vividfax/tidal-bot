@@ -1,9 +1,33 @@
+setcps (135/60/4)
+
 d1 $ fast 1 $ sound "print:9 print:36 print:34 print:100/2" # legato 1
 
 d2 $ hurry 0.5 $ sound "print:45 print:88 ~" # legato 1
 
 d3 $ fast 1 $ sound "print:42/2 print:47*3 print:61 print:78!3" # legato 1
 
-d4 $ hurry 2 $ sound "~" # legato 1
+d4 $ hurry 1 $ sound "bd:67/2 bd:24" # legato 1
+
+d5 $ hurry 1 $ sound "~ bd:56/4 bd:40" # legato 1
+
+d6 $ hurry 0.5 $ sound "~ . bd:65" # legato 1
+
+d7 $ fast 2 $ sound "bd:11 bd:77*2" # legato 1
+
+d8 $ hurry 2 $ sound "notes:73 notes:26/4 notes:36 notes:27!2" # legato 1 # gain 0.9
+
+d9 $ fast 1 $ sound "notes:100!2 notes:68*4 notes:59 notes:71/2" # legato 1 # gain 0.9
+
+d10 $ hurry 2 $ sound "notes:55 notes:28 notes:64 notes:9" # legato 1 # gain 0.9
+
+d11 $ fast 1 $ sound "notes:93!4 notes:54" # legato 1 # gain 0.9
+
+d12 $ hurry 0.5 $ sound "numbers:55 numbers:76!2 . ~" # legato 1
+
+d13 $ fast 2 $ sound "~ . numbers:65" # legato 1
+
+d14 $ hurry 2 $ sound "numbers:26 numbers:88" # legato 1
+
+d15 $ fast 2 $ sound "numbers:6!2 numbers:28 numbers:55*2 numbers:100" # legato 1
 
 hush
