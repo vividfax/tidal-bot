@@ -1,0 +1,35 @@
+setcps (100/60/4)
+
+d1 $ hurry 2 $ sound "pluck:50 ~" # legato 1
+
+d2 $ fast 1 $ sound "pluck:100 pluck:90 pluck:8!3" # legato 1
+
+d3 $ hurry 0.5 $ sound "~ notes:84" # legato 1
+
+d4 $ hurry 2 $ sound "notes:10" # legato 1
+
+d5 $ hurry 1 $ sound "notes:73!4 notes:41@4 notes:54!2" # legato 1
+
+d6 $ hurry 1 $ sound "notes:100" # legato 1
+
+d7 $ hurry 0.5 $ sound "bottle:40 bottle:14" # legato 1
+
+d8 $ fast 0.5 $ sound "bottle:45@4 bottle:41" # legato 1
+
+d9 $ fast 2 $ sound "bottle:42@4" # legato 1
+
+d10 $ fast 1 $ sound "linnhats:12" # legato 1
+
+d11 $ fast 0.5 $ sound "linnhats:59" # legato 1
+
+d12 $ hurry 0.5 $ sound "linnhats:9 . ~ linnhats:67" # legato 1
+
+d13 $ fast 2 $ sound "birds3:12 ~ birds3:9 ~" # legato 1
+
+d14 $ fast 0.5 $ sound "birds:34" # legato 1
+
+d15 $ hurry 1 $ sound "birds:38" # legato 1
+
+d16 $ hurry 0.5 $ sound "pad:97@3" # legato 1.1
+
+hush

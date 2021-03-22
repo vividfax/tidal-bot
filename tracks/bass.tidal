@@ -1,0 +1,35 @@
+setcps (100/60/4)
+
+d1 $ hurry 2 $ sound "bass3:92 bass3:48" # legato 1
+
+d2 $ hurry 0.5 $ sound "bass3:44@3" # legato 1
+
+d3 $ fast 2 $ sound "bass3:81!4 bass3:52 bass3:97" # legato 1
+
+d4 $ hurry 0.5 $ sound "bass3:72" # legato 1
+
+d5 $ hurry 1 $ sound "sd:4 sd:0/4 sd:78" # legato 1
+
+d6 $ fast 2 $ sound "sd:50" # legato 1
+
+d7 $ fast 1 $ sound "sd:96!2 sd:52 sd:20@4 sd:20/4" # legato 1
+
+d8 $ hurry 2 $ sound "~ cc:58 cc:60" # legato 1
+
+d9 $ hurry 2 $ sound "cc:36 ~" # legato 1
+
+d10 $ fast 0.5 $ sound "cc:45 cc:42 cc:24" # legato 1
+
+d11 $ hurry 1 $ sound "cc:87 cc:47 cc:47 cc:49" # legato 1
+
+d12 $ hurry 2 $ sound "sax:44 sax:15*2 sax:83@4 sax:0/2" # legato 1
+
+d13 $ hurry 2 $ sound "sax:55 sax:38*2 sax:19" # legato 1
+
+d14 $ fast 1 $ sound "industrial:79 industrial:16" # legato 1
+
+d15 $ fast 1 $ sound "industrial:15*2 industrial:55 industrial:80@3 industrial:31" # legato 1
+
+d16 $ hurry 0.5 $ sound "industrial:29" # legato 1
+
+hush

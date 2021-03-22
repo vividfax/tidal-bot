@@ -1,9 +1,35 @@
-d1 $ hurry 1 $ sound "breath:8!2 mouth:31" # legato 1
+setcps (100/60/4)
 
-d2 $ hurry 2 $ sound "breath:55" # legato 1
+d1 $ hurry 1 $ sound "breath:8!2 mouth:31" # legato 1 # gain 1.5
 
-d3 $ fast 0.5 $ sound "mouth:1 breath:28 mouth:14 realclaps:37" # legato 1
+d2 $ hurry 2 $ sound "breath:55" # legato 1 # gain 1.5
 
-d4 $ hurry 1 $ sound "hand:45" # legato 1
+d3 $ fast 0.5 $ sound "mouth:1 breath:28 mouth:14 realclaps:37" # legato 1 # gain 1.5
+
+d4 $ hurry 1 $ sound "hand:45" # legato 1 # gain 1.5
+
+d5 $ hurry 1 $ sound "popkick:18 popkick:24 popkick:26 ~" # legato 1
+
+d6 $ hurry 2 $ sound "popkick:19" # legato 1
+
+d7 $ fast 1 $ sound "popkick:87 popkick:96 popkick:40" # legato 1
+
+d8 $ hurry 2 $ sound "ht:58 ht:43 ht:95@2" # legato 1
+
+d9 $ hurry 0.5 $ sound "ht:75 ht:87" # legato 1
+
+d10 $ hurry 2 $ sound "ht:39 ht:0 ht:51" # legato 1
+
+d11 $ fast 1 $ sound "ht:65 ~" # legato 1
+
+d12 $ fast 1 $ sound "sd:12 ~ sd:49 sd:48/4" # legato 1
+
+d13 $ fast 0.5 $ sound "sd:74" # legato 1
+
+d14 $ fast 0.5 $ sound "sd:32" # legato 1
+
+d15 $ hurry 1 $ sound "sd:62 sd:14 sd:30!4" # legato 1
+
+d16 $ hurry 2 $ sound "~ linnhats:73 ~ linnhats:55*4" # legato 1
 
 hush

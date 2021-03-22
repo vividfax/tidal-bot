@@ -1,0 +1,35 @@
+setcps (90/60/4)
+
+d1 $ hurry 0.5 $ sound "808ht:27/2 808hc:25*4" # legato 1
+
+d2 $ hurry 2 $ sound ". 808ht:100!4 808ht:52!2" # legato 1
+
+d3 $ hurry 1 $ sound "808mc:45 ~ 808lc:1@3 808lc:92" # legato 1
+
+d4 $ hurry 2 $ sound "808lc:32 ~ 808ht:93" # legato 1
+
+d5 $ hurry 2 $ sound "wind:82@3 wind:83/2" # legato 1
+
+d6 $ hurry 2 $ sound "wind:81 wind:23 wind:60" # legato 1
+
+d7 $ hurry 1 $ sound "pluck:1*2" # legato 1
+
+d8 $ fast 2 $ sound "~ pluck:31 pluck:2@3 pluck:48" # legato 1
+
+d9 $ fast 1 $ sound "linnhats:83 linnhats:57 linnhats:97" # legato 1
+
+d10 $ fast 2 $ sound "linnhats:39 linnhats:96 linnhats:24 linnhats:37" # legato 1
+
+d11 $ fast 0.5 $ sound "linnhats:36*4" # legato 1
+
+d12 $ hurry 0.5 $ sound ". linnhats:83/2 linnhats:1" # legato 1
+
+d13 $ fast 1 $ sound "realclaps:16 realclaps:64/4 realclaps:83*4" # legato 1
+
+d14 $ hurry 2 $ sound "realclaps:51 ~ realclaps:8" # legato 1
+
+d15 $ hurry 0.5 $ sound "realclaps:32 ~ realclaps:91 realclaps:64" # legato 1
+
+d16 $ fast 1 $ sound "realclaps:41 realclaps:27 realclaps:11 realclaps:18" # legato 1
+
+hush

@@ -1,0 +1,5 @@
+setcps (100/60/4)
+
+d1 $ fast 1 $ sound ". sax:100 sax:54 sax:88!4" # legato 1
+
+hush
