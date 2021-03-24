@@ -1,0 +1,35 @@
+setcps (90/60/4)
+
+d1 $ fast 1 $ sound "808mc:15/3 808mt:50 ~ 808mc:88@3" # legato 1
+
+d2 $ hurry 2 $ sound "808mt:57 ~ 808hc:16" # legato 1
+
+d3 $ fast 1 $ sound "808mc:56" # legato 1
+
+d4 $ hurry 2 $ sound "808ht:78!3" # legato 1
+
+d5 $ fast 2 $ sound ". wind:51" # legato 1
+
+d6 $ fast 1 $ sound "wind:58*3 . wind:60" # legato 1
+
+d7 $ hurry 0.5 $ sound "wind:51 wind:57" # legato 1
+
+d8 $ hurry 2 $ sound "wind:82" # legato 1
+
+d9 $ hurry 1 $ sound "linnhats:35 ~" # legato 1
+
+d10 $ hurry 1 $ sound ". linnhats:30 linnhats:21" # legato 1
+
+d11 $ fast 1 $ sound "linnhats:2" # legato 1
+
+d12 $ hurry 2 $ sound "~ linnhats:11 linnhats:91" # legato 1
+
+d13 $ fast 1 $ sound "bottle:17 bottle:92 bottle:37/4" # legato 1
+
+d14 $ hurry 2 $ sound "bottle:12" # legato 1
+
+d15 $ fast 0.5 $ sound "bottle:11!2" # legato 1
+
+d16 $ fast 1 $ sound "bottle:78 bottle:35 bottle:17 bottle:4!3" # legato 1
+
+hush
