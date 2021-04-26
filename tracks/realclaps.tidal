@@ -1,9 +1,0 @@
-d5 $ hurry 0.5 $ sound ". realclaps:91 realclaps:59 realclaps:32" # legato 1
-
-d6 $ fast 1 $ sound "~ . realclaps:77" # legato 1
-
-d7 $ fast 1 $ sound "realclaps:8 realclaps:76 realclaps:4 realclaps:20" # legato 1
-
-d8 $ fast 0.5 $ sound "realclaps:41!2 realclaps:64*4" # legato 1
-
-hush
